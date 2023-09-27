@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'canela';
+    font-style: italic;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/canela-light-italic.woff2?v=1693500533") format("woff2");
+}
+
+@font-face {
+    font-family: 'canela';
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/canela-light.woff2?v=1693500534") format("woff2");
+}
+
+@font-face {
+    font-family: 'neue';
+    font-weight: 500;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/neue-medium.woff2?v=1693500638") format("woff2");
+}
+
+@font-face {
+    font-family: 'neue';
+    font-weight: 400;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/neue-book.woff2?v=1693500632") format("woff2");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'neue';
+}
+body{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    height:100vh;
+    width: 375px;
+    background-color: #EBE8E3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    
+}
+.topLists{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid #161010;
+    padding-bottom: 23.02px;
+    margin-left: 16.35px;
+    margin-right: 16.35px;
+    padding-top: 16.35px;
+    font-weight: 500;
+    font-size: 24.52px;
+    letter-spacing: 4%;
+    
+}
+.item1,.item2,.item3{
+    margin-left: 16.35px;
+    margin-right: 16.35px;
+    padding-top: 20.44px;
+    padding-bottom: 20.44px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #161010;
+}
+.item1Left,.item2Left,.item3Left{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 16.35px;
+}
+.operation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-operation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.item1Right,.item2Right,.item3Right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: right;
+}
+.price1{
+    font-weight: 375;
+    font-size: 24.52px;
+    letter-spacing: 1%;
+    text-align: right;
+}
+
+/*------------------------------------------FOOTER-------------------------------------*/
+.footer{
+    background-color: #EBE8E3;
+}
+hr{
+    border-top: 1px solid #161010;
+}
+.footerLists{
+    padding-top: 16.35px;
+    margin-left: 16.35px;
+    margin-right: 16.35px;
+    padding-bottom: 7.7px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 375;
+    font-size: 20.44px;
+    letter-spacing: 1%;
+}
+.centerFooter p{
+    margin-left: 16.35px;
+    margin-right: 16.35px;
+    padding-bottom: 19.85px;
+    font-size: 16.35px;
+    font-weight: 375;
+    letter-spacing: 1%;
+    color: #8D8583;
+}
+.botFooter{
+    display: grid;
+    justify-self: stretch;
+    margin-left: 16.35px;
+    margin-right: 16.35px;
+    padding-bottom: 10.22px;
+}
+button{
+    background-color: #161010;
+    border-radius: 102.179px;
+    border-style: none;
+    height: 53.13px;
+    font-weight: 500;
+    font-size: 20.4357px;
+    text-align: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media(min-width:768px){
+    .navBar{
+        width: 600px;
+    }
+    .topLists{
+        padding-bottom: 23.02px;
+        margin-left: 32.7px;
+        margin-right: 32.7px;
+        padding-top: 32.7px;
+    }
+    .item1,.item2,.item3{
+        margin-left: 32.7px;
+        margin-right: 32.7px;
+        padding-top: 20.44px;
+        padding-bottom: 20.44px;
+    }
+    .footerLists{
+        padding-top: 16.35px;
+        margin-left: 32.7px;
+        margin-right: 32.7px;
+        padding-bottom: 7.7px;
+    }
+    .centerFooter p{
+        margin-left: 32.7px;
+        margin-right: 32.7px;
+        padding-bottom: 19.85px;
+    }
+    .botFooter{
+        margin-left: 32.7px;
+        margin-right: 32.7px;
+        padding-bottom: 20.44px;
+    }
+}
+
+@media(min-width:1440px){
+    .navBar{
+        width: 800px;
+    }
+    
+}
